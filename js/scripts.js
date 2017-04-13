@@ -1,8 +1,7 @@
-
 $(function(){
 	var span = $('span'); 
 	span.each(function(index, element) {
-		if(index % 2 == 0) { $("span:even").css('color', 'red'); 
+		if(index % 2 == 1) { $(element).css('color', 'red'); 
 		}; 
 	});
 	var paragraphs = $('p');
